@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #0059ff 0%, #cfdef3 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background: #35424a;
+    color: #fff;
+    padding: 24px 0 12px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    color: #35424a;
+    margin: 32px 0 24px 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+form {
+    background: #fff;
+    padding: 32px 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(53,66,74,0.08);
+    max-width: 400px;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+label {
+    font-weight: 500;
+    color: #35424a;
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bfcad6;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f7fafc;
+    transition: border-color 0.2s;
+    box-sizing: border-box; 
+    margin-right: 0;        
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #45a049;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(90deg, #35424a 60%, #45a049 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(53,66,74,0.08);
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #45a049 60%, #35424a 100%);
+}
+
+a.register, a.login {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #45a049;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+a.register:hover, a.login:hover {
+    color: #35424a;
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    form {
+        padding: 18px 8px;
+        max-width: 95vw;
+    }
+    h1 {
+        font-size: 1.3rem;
+        margin: 18px 0 12px 0;
+    }
+    header {
+        font-size: 1.1rem;
+        padding: 16px 0 8px 0;
+    }
+}

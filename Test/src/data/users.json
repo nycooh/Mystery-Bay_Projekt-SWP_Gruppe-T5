@@ -1,0 +1,32 @@
+[
+  {
+    "username": "jov230100",
+    "password": "kjvq sxrm iuuc bojr",
+    "email": "swaxy569@gmail.com",
+    "role": "Verkäufer",
+    "verified": false
+  },
+  {
+    "username": "swaxy",
+    "password": "kjvq sxrm iuuc bojr",
+    "email": "swaxy569@gmail.com",
+    "role": "Verkäufer",
+    "verified": false
+  
+  },
+  {
+    "username": "asd",
+    "password": "znbf inza kgen oyzd",
+    "email": "swaxy569@gmail.com",
+    "role": "Käufer",
+    "verified": false
+    
+  },
+  {
+    "username": "Luka",
+    "password": "123",
+    "email": "test@email.com",
+    "role": "Verkäufer",
+    "verified": false
+  }
+]
